@@ -1,0 +1,66 @@
+
+
+<div *ngIf = "cartItem.length > 0">
+    <h1 class="invoice"><u>Invoice</u></h1>
+    <table border="5" cellpadding="5" class="table table-hover table-stripped">
+        <thead>
+            <tr class="table-primary">
+                <th>Item</th>
+                <th>ItemName</th>
+                <th>ItemPrice</th>
+            </tr>
+    
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of cartItem">
+                <td><img src="../../assets/images/{{item.imagePath}}" class="img1"> </td>
+                <td><b><i>{{item.name}}</i></b></td>
+                <td><b><i>&#x20B9;{{item.price}}</i></b></td>
+            </tr>
+    
+            <tr>
+                <td></td>
+                <td><b><i>Totalprice</i></b></td>
+                <td><b><i>&#x20B9;{{totalAmount}}</i></b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b><i>10% CGST</i></b></td>
+                <td><b><i>&#x20B9;{{cgst}}</i></b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b><i>10%SGST</i></b></td>
+                <td><b><i>&#x20B9;{{sgst}}</i></b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><i><b>10%Discount</b></i></td>
+                <td><b><i>&#x20B9;{{discount}}</i></b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b><i>Net Amount</i></b></td>
+                <td><b><i>&#x20B9;{{netAmount}}</i></b></td>
+            </tr>
+            </tbody>
+    
+    </table>
+</div>
+<div *ngIf = "cartItem.length == 0">
+    <p  class="noItems"><b><i>No items added in the cart</i></b></p>
+</div>
+
+<h2><b>Thank you so much for visiting here.</b></h2>
+<br>
+<h1><i>Dineout</i></h1>
+<p><b>Find the best Resturants,Deals,Discount and Offers</b></p><br>
+<p><b>Contact :</b><b>91-9212340202</b></p>
+<a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+<a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+<a href="http://www.youtube.com"> <i class="fab fa-youtube"></i></a>
+<a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+
+
+
+

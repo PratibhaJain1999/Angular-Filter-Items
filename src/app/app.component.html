@@ -1,0 +1,9 @@
+<div class="container">
+    <app-items-header></app-items-header>
+    <app-tabs (tabSelected)="tabSelected($event)"></app-tabs>
+    <app-search (searchText)="searchText($event)"></app-search>
+    
+    <router-outlet> </router-outlet>   
+    
+
+</div>

@@ -1,0 +1,65 @@
+.img1 {
+    width:150px;
+    border-radius: 10px;
+    border: double;
+}
+b{
+    font-size: 20px;
+}
+.invoice{
+    text-align: center;
+    color: #C12283;
+    font-family: cursive;
+}
+table{
+    font-family: cursive;
+}
+tr{
+    border: 2px double
+}
+td{
+    border: 2px double;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+   color: deeppink;
+}
+.table{
+    font-size: 20px;
+}
+.fa-facebook-f{
+    color: darkblue;
+    margin-left: 45%;
+    font-size: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+.fa-instagram{
+    color: #C12283;
+    font-size: 30px;
+     padding: 4px;
+     cursor: pointer;
+}
+.fa-youtube{
+    color: red;
+    font-size: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+.fa-twitter{
+    color: lightskyblue;
+    font-size: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.b{
+    font-size: 20px;
+}

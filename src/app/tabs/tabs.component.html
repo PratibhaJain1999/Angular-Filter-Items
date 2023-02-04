@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="mx-auto mt-2">
+        <div id="filterbtns" style="display: contents;">
+            <button type="button" class="btn btn-outline-secondary  text-uppercase filter "
+                (click)="filteritems('all')">All</button>
+            <button type="button" class="btn btn-outline-secondary  text-uppercase filter"
+                (click)="filteritems('icecream')">Icecreams</button>
+            <button type="button" class="btn btn-outline-secondary  text-uppercase filter"
+                (click)="filteritems('pizza')">Pizza</button>
+            <button type="button" class="btn btn-outline-secondary  text-uppercase filter"
+                (click)="filteritems('burger')">Burger </button>
+            <button type="button" class="btn btn-outline-secondary  text-uppercase filter"
+                (click)="filteritems('sandwich')">Sandwiches</button>
+            <button type="button" class="btn btn-outline-secondary  text-uppercase filter"
+     
+            (click)="filteritems('coldrink')">colddrinks</button>
+            <a routerLink="shopping-cart">
+                <i class="fas fa-shopping-cart"><span class="badge badge-secondary" id="itemsCount">{{totalCount}}</span></i>
+            </a>
+            <a routerLink="">
+                <i class="fas fa-home"></i>
+            </a>
+          
+        </div>
+       
+
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+<div class="row" id="search-bar">
+    <div class="mx-auto mt-3">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="search-icon"><i class="fas fa-search"></i></span>
+            </div>
+
+            <input type="text" class="form-control search-input" placeholder="Enter item name..." id="search" [(ngModel)] ="searchValueText">
+            <button type="button" class="btn btn-success bttn" (click)="searchValue()" ><b>Search</b></button>
+            
+        </div>
+    </div>
+</div>

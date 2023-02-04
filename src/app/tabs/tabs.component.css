@@ -1,0 +1,14 @@
+#itemsCount{
+    background-color: darkblue;
+    font-size: 15px;
+}
+.fa-home{
+    cursor: pointer;
+    color: green;
+    font-size: 30px;
+}
+.fa-shopping-cart{
+    cursor: pointer;
+    color: blue;
+    font-size: 25px;
+}

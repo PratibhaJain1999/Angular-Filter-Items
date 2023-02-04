@@ -1,0 +1,16 @@
+.imgg1{
+    width: 200px;
+    border: double;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+}
+#pricelabel{
+    font-size: 20px;
+    font-family: cursive;
+}
+h2{
+    color: purple;
+}

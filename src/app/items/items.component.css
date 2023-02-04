@@ -1,0 +1,135 @@
+.fa-search{
+    color: palevioletred;
+}
+
+.card-img-top{
+    width: 300px;
+    height: 200px;
+    padding: 7px;
+    cursor: pointer;
+}
+.card{
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+body{
+font-family: cursive;
+}
+.search-input{
+    width: 400px !important;
+}
+.bttn{
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+}
+
+h1{
+    color: black
+
+}
+a{
+    color: green;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: center;
+}
+.fa-facebook-f{
+    color: darkblue;
+    margin-left: 45%;
+    font-size: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+.fa-instagram{
+    color: #C12283;
+    font-size: 30px;
+     padding: 4px;
+     cursor: pointer;
+}
+.fa-youtube{
+    color: red;
+    font-size: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+.fa-twitter{
+    color: lightskyblue;
+    font-size: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+.fa-home{
+    cursor: pointer;
+    color: green;
+    font-size: 30px;
+}
+.fa-shopping-cart{
+    cursor: pointer;
+    color: blue;
+    font-size: 25px;
+}
+
+#itemImage{
+    width: 200px;
+    height: 150px;
+}
+#cart{
+    visibility: hidden;
+}
+h2{
+    text-align: center;
+}
+#vis{
+    border: 10px double darkmagenta;
+    margin-top: 50px;
+   }
+.logo{   
+    margin-top: 15px;
+}
+.img-container{
+    overflow: hidden;
+}
+.store-img{
+       transition: all 1s ease-in-out;
+   }
+   
+.img-container:hover .store-img{
+       transform: scale(1.5);
+   }
+ .img11{
+     border: 4px dotted black;
+     width: 150px;
+     height: 100px;
+ }
+#cart{
+    visibility: hidden;
+}
+#tables{
+    padding: 10px;
+
+}
+.invoice{
+    text-align: center;
+    color: #C12283;
+    margin-top: 20px;
+    font-size: 40px;
+}
+#itemsCount{
+    background-color: darkblue;
+    font-size: 15px;
+
+}
+#cart-items{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    
+}

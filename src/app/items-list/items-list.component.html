@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="mx-auto" *ngFor = "let item of filterList">
+        <app-items [item]="item" (itemModel)="model($event)" ></app-items>
+
+
+    </div>
+</div>
+
+<div class="modal" [ngClass] = "{'d-block' : showModal}" id="myModel" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i><b>Item details</b></i></h2>
+                <button class="close" id="closebtn" (click)="closeModal()"><b>&times;</b></button>
+            </div>
+            <div class="modal-body">
+                <img src="../../assets/images/{{modelView.imagePath}}"  alt="image" class="imgg1">
+                <br><br>
+                <label>
+                    <p  class="text-capitalize"  ><b> Name: {{modelView.name}}</b></p>
+                </label>
+                <br>
+                <label id="pricelabel"><b>Price:</b>
+                    <p>
+                        <span><b>Rs:</b></span>
+                        <span><b>{{modelView.price}}</b></span>
+                    </p>
+                </label>
+                <br>
+                <button type="button" class="btn btn-success" (click)="AddToCart()">Add To Cart</button>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
